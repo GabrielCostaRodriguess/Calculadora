@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    
+
+
+
+ 
+        <section>
+            <h2>CALCULADORA</h2>
+            <input type="text" name="res" id="res" placeholder="Faça uma operação">
+            <div id="principal">
+                <div id="one">
+                    <button id="sete" onclick="insert('7')">7</button>
+                    <button id="oito" onclick="insert('8')">8</button>
+                    <button id="nove" onclick="insert('9')">9</button>
+                    <button id="soma" onclick="insert('+')">+</button>
+
+                </div>
+                <div id="two">
+                    <button id="quatro" onclick="insert('4')">4</button>
+                    <button id="cinco" onclick="insert('5')">5</button>
+                    <button id="seis" onclick="insert('6')">6</button>
+                    <button id="sub" onclick="insert('-')">-</button>
+                </div>
+                <div id="three">
+                    <button id="um" onclick="insert('1')">1</button>
+                    <button id="dois" onclick="insert('2')">2</button>
+                    <button id="tres" onclick="insert('3')">3</button>
+                    <button id="mult" onclick="insert('x')">x</button>
+                </div>
+                <div id="fourth"><button id="zero" onclick="insert('0')">0</button></div>
+                <button id="enter" onclick="enter()">Enter</button>
+                <button id="limpar" onclick="limpar()">Limpar</button>
+                <button id="divi" onclick="insert('/')">/</button>
+                
+            </div>
+        
+        
+        </section>
+    
+
+
+
+    <footer>&copy; Site criado por Gabriel Rodrigues</footer>
+    <script src="prog/script.js"></script>
+</body>
+</html>
